@@ -1,0 +1,356 @@
+#row{
+    width: 100%;
+    margin: 0 auto;
+}
+.clr{clear: both;}
+
+    ul li .bar{
+/*        min-width: 150%;*/
+        display: none;
+        position: absolute;
+        width: 185px;
+        margin: 0px;
+        margin-left: 80px;
+        padding: 0px;
+        z-index: 999;
+    }
+    ul li:hover .bar{
+        display: block;
+        margin: 0px;
+    }
+    ul li .bar li{
+        display: block;
+        padding: 0px;
+        margin-left: -22px;
+        width: 174px;
+        background: url('../images/Happy%20New%20Year%20SNSD%202016%20Photo%201.png') bottom center;
+    }
+input[type=text],input[type=password],input[type=email]
+{
+    width: 45%;
+    float: left;
+    padding: 10px;
+    margin: 5px;
+    display: block;
+}
+#main_title{
+    width: 1170px;
+    height: 65px;
+    margin: 10px auto;
+    padding-top: 15px;
+}
+#main_title h2{
+    color: aliceblue;
+    text-shadow: 0px 0px 5px #00a907;
+    font-size: 4.2em;
+    font-family: monospace;
+    font-variant: small-caps;
+}
+input[type=text]:focus,input[type=email]:focus,input[type=password]:focus,textarea:focus{
+    background-color: lightskyblue;
+}
+input[type=submit]
+{
+    padding: 10px 25px;
+    margin: 3px -95px;
+    float: right;
+    border: 0px;
+}
+input[type=submit]:hover
+{
+    border: none;
+    color: lawngreen;
+    background-color: darkslateblue;
+}
+input[type=button]
+{
+    padding: 10px 25px;
+    margin: 3px -95px;
+    float: right;
+    border: 0px;
+}
+input[type=button]:hover
+{
+    border: none;
+    color: lawngreen;
+    background-color: darkslateblue;
+}
+input[type=reset]
+{
+    padding: 10px 25px;
+    margin: 3px 5px;
+    float: right;
+    border: 0px;
+}
+input[type=reset]:hover
+{
+    border: none;
+    color: dodgerblue;
+    background-color: dimgrey;
+}
+form{
+/*    background: url('../.../../images/IMG_20170428_063109.jpg') top center;*/
+    width: 100%;
+    padding: 10px;
+    box-shadow: 3px 5px 5px green;
+}
+label{
+    float: left;
+    width: 18%;
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    font-family: georgia;
+    color: #0000ff;
+/*    text-shadow: 0px 0px 2px black;*/
+}
+textarea{
+    float: left;
+    width: 47.1%;
+    font-family: Arial;
+    margin: 5px;
+    padding: 10px;
+}
+
+.bottom{
+    float: left;
+    width: 70%;
+}
+.error{
+    float: right;
+    color: aliceblue;
+    text-shadow: 0px 0px 2px red;
+    font-style: italic;
+    font-size: 14px;
+/*    border: 1px solid red;*/
+    width: 200px;
+    padding: 10px;
+    margin: 5px;
+}
+#login > h3{
+    text-align: center;
+    font-variant: small-caps;
+}
+#login {
+    width: 50%;
+    margin: 0 auto;
+}
+.email1{
+    clear: both;
+    overflow: auto;
+}
+.email1 .inp1{
+    float: left;
+    width: 60%;
+}
+.sub1{
+    width: 400px;
+    height: 40px;
+}
+#login a{
+    clear: both;
+}
+.bottom a{
+    margin-left: 190px;
+    float: left;
+    padding: 10px 0px;
+}
+.link{
+    float: right;
+/*    color: #fff;*/
+    font-family: cursive;
+    margin-right: 25px;
+    padding: 7px;
+}
+.pagin{
+/*    border: 1px solid green;*/
+    margin-top: 5px;
+    padding: 7px;
+}
+.pagin strong{
+/*    border: 1px solid red;*/
+    padding: 3px 13px;
+    margin: 1px;
+    font-weight: normal;
+}
+.pagin a{
+/*    border: 1px solid yellow;*/
+    padding: 4px;
+}
+span{
+    padding: 10px;
+}
+#home, #job_list, #profile, #password, #job_post, #head, #login{
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px green;
+    overflow: hidden;
+}
+.h2{
+    color: aliceblue;
+}
+#title{
+    font-variant: small-caps;
+    padding: 20px;
+/*    background: url('../images/gplus477116484.gif');*/
+    background: url('../images/IMG_20170310_061433.jpg');
+}
+#body{
+/*
+    display: none;
+    background: url('../.../../images/IMG_20170428_063109.jpg') top center;
+*/
+    padding: 10px;
+}
+input[type=file]{
+    margin-top: 15px;
+    margin-left: 5px;
+}
+#body select{
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.rsbot{
+    padding-right: 240px;
+}
+.center{
+    text-align: center;
+}
+.jtable tr td{
+    padding: 4px;
+    font-size: 14px;
+    color: black;
+    text-shadow: 0px 0px -5px hsl(208, 100%, 97%);
+}
+.jtable tr th{
+    color: aliceblue;
+    background-color: darkslateblue;
+    padding: 7px;
+    font-size: 17px;
+}
+.icon img{
+    width: 30px;
+    height: 30px;
+}
+.info{
+    color: aliceblue;
+    text-shadow: 0px 2px 1px hsl(0, 0%, 0%);
+    font-family: monospace;
+    font-size: 15px;
+}
+#eff{
+    animation: e 5s ease-in-out 0s infinite alternate running;
+    font-size: 3em;
+    display: inline-block;
+}
+.eff1{
+    animation: e1 3s ease-in-out 0s infinite alternate running;
+    font-size: 1em;
+    display: inline-block;
+}
+.eff2{
+    animation: e2 3s ease-in-out 3s infinite alternate running;
+    font-size: 1em;
+    display: inline-block;
+}
+.eff3{
+    animation: e3 3s ease-in-out 6s infinite alternate running;
+    font-size: 1em;
+    display: inline-block;
+}
+.eff4{
+    animation: e4 3s ease-in-out 9s infinite alternate running;
+    font-size: 1em;
+    display: inline-block;
+}
+.eff5{
+    animation: e5 10s ease-in-out 12s infinite alternate running;
+    display: inline-block;
+}
+@keyframes e{
+    25%{
+        color: cyan;
+    }
+    50%{
+        color: magenta;
+    }
+    75%{
+        color: yellow;
+    }
+    100%{
+        color: white;
+    }
+}
+@keyframes e1{
+    25%{
+        color: cyan;
+    }
+    50%{
+        color: magenta;
+    }
+    75%{
+        color: yellow;
+    }
+    100%{
+        color: black;
+        transform: translate(0px, 0px) scale(2);
+    }
+}
+@keyframes e2{
+    25%{
+        color: magenta;
+    }
+    50%{
+        color: yellow;
+    }
+    75%{
+        color: black;
+    }
+    100%{
+        color: cyan;
+        transform: translate(0px, 0px) scale(2);
+    }
+}
+@keyframes e3{
+    25%{
+        color: yellow;
+    }
+    50%{
+        color: black;
+    }
+    75%{
+        color: cyan;
+    }
+    100%{
+        color: magenta;
+        transform: translate(0px, 0px) scale(2);
+    }
+}
+@keyframes e4{
+    25%{
+        color: black;
+    }
+    50%{
+        color: cyan;
+    }
+    75%{
+        color: magenta;
+    }
+    100%{
+        color: yellow;
+        transform: translate(0px, 0px) scale(2);
+    }
+}
+@keyframes e5{
+    25%{
+        color: black;
+    }
+    50%{
+        color: cyan;
+    }
+    75%{
+        color: magenta;
+    }
+    100%{
+        color: yellow;
+    }
+}
